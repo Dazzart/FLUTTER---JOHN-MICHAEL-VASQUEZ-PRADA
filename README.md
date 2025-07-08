@@ -1,8 +1,10 @@
 # FLUTTER---JOHN-MICHAEL-VASQUEZ-PRADA
+
 FICHA 2925960
 TRABAJO API + CRUD DE TABLAS DE MI PROYECTO
 
 -- Tabla de categorías
+
 CREATE TABLE categoria (
   id_categoria INT AUTO_INCREMENT PRIMARY KEY,
   nombre_categoria VARCHAR(255) NOT NULL,
@@ -10,6 +12,7 @@ CREATE TABLE categoria (
 );
 
 -- Tabla de subcategorías
+
 CREATE TABLE subcategoria (
   id_subcategoria INT AUTO_INCREMENT PRIMARY KEY,
   nombre_subcategoria VARCHAR(255),
@@ -19,6 +22,7 @@ CREATE TABLE subcategoria (
 );
 
 -- 🗂 Categorías y Subcategorías
+
 INSERT INTO categoria (nombre_categoria, descripcion_categoria) VALUES
 ('Computadoras', 'Equipos de cómputo y accesorios'),
 ('Periféricos', 'Dispositivos externos como teclados y ratones'),
